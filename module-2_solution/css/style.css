@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+body {
+  background-color: #ace2f9;
+}
+
+h1 {
+  text-align: center;
+  font-family: castellar, serif;
+  font-size: 28px;
+  color: #033a17;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+h2 {
+  text-align: center;
+  font-family: forte, arial;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: #ddfffb;
+  float: right;
+  width: 33.33%;
+  box-shadow: 0 0 1px 1px black;
+}
+
+.ttl-1 {
+  background-color: #81aa3a;
+}
+
+.ttl-2 {
+  background-color: #7452b7;
+}
+
+.ttl-3 {
+  background-color: #877b12;
+}
+
+.main {
+  margin: 1.165%;
+}
+
+p {
+  padding: 9.99% 3.33% 3.33% 3.33%;
+}
+
+.sec {
+  font-family: tahoma, sans-serif;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 15px;
+  color: white;
+  float: left;
+  background-color: #a52929;
+}
+
+@media (min-width: 992px) {
+   .sec {
+     width: 31%;
+     margin: 1.165%; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   .sec-1, .sec-2 {
+     width: 47.67%;
+     margin: 1.165%; 
+   }
+
+   .sec-3 {
+     width: 97.67%;
+     margin: 1.165%;   
+  }
+}
+
+@media (max-width: 767px) {
+   .sec {
+     width: 97.67%;
+     margin: 1.165%;
+  } 
+}
