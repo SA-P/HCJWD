@@ -77,3 +77,6 @@ span, span a {
     margin-top: 12px;
     margin-bottom: 12px;
 }
+.brc {
+    border-bottom: solid 1px black;
+}
